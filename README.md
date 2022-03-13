@@ -1,4 +1,4 @@
-# Projet de Systèmes Répartis
+# Projet de Systèmes Répartis : Classification du risque de crédit pour les ménages allemands
 
 
 ## Données
