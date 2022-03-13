@@ -2,11 +2,11 @@
 
 ## Résumé
 
-La classification est l'une des tâches les plus importantes du machine learning et du scoring. En effet, le scoring de crédit fut historiquement l'un des premiers champs d'application des techniques de machine learning. De la nécessité de distinguer deux groupes d'individus, entre les mauvais et bons payeurs, les établissements de crédit pour éviter les risques de défauts bancaires se sont efforcés de développer des méthodes et modèles avec le meilleur pouvoir prédictif permettant d'identifier les contreparties à risque/en défaut des autres. 
+La classification est l'une des tâches les plus importantes du machine learning et du scoring. En effet, le scoring de crédit fut historiquement l'un des premiers champs d'application des techniques de machine learning. De la nécessité de distinguer deux groupes d'individus, entre les mauvais et bons payeurs, les établissements de crédit pour éviter les risques de défauts bancaires se sont efforcés de développer des méthodes et modèles avec le meilleur pouvoir prédictif permettant d'identifier les contreparties à risque/en défaut des autres. Dans le cadre de notre étude, nous réaliserons une classification pour des ménages allemands.
 
 ## Données
 
-L'ensemble de données utilisé dans ce projet est inclus sous le nom de `german_credit_data.csv`. Ce jeu de données est fourni par le Professeur Dr. Hans Hofmann de l'Institut de Statistique et d'Économétrie de l'Université d'Hambourg. Originellement composée de `20 variables` et `1000 observations` (https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data), le dataset utilisé pour notre analyse est une version allégée disponible sur Kaggle (https://www.kaggle.com/kabure/german-credit-data-with-risk) avec `10 attributs`, ceux non-retenus n'étant pas si importants ou leurs descriptions obscures.
+L'ensemble de données utilisé dans ce projet est inclus sous le nom de `german_credit_data.csv`. Ce jeu de données est fourni par le Professeur Dr. Hans Hofmann de l'Institut de Statistique et d'Économétrie de l'Université d'Hambourg. Originellement composée de `20 variables` et `1000 observations` (https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data), le dataset utilisé pour notre analyse est une version allégée disponible sur Kaggle (https://www.kaggle.com/kabure/german-credit-data-with-risk) avec `10 attributs`, ceux non-retenus n'étant pas si importants ou leurs descriptions obscures. 
 
 La base finale conservée contient les variables suivantes :
 
@@ -20,3 +20,13 @@ La base finale conservée contient les variables suivantes :
 - `Duration` (variable numérique continue, Durée du crédit en mois)
 - `Purpose` (variable textuelle catégorielle avec pour modalités: car, radio/TV, furniture/equipment, business, education)
 - `Risk` (variable textuelle catégorielle, C'est la variable cible, elle correspond au statut du crédit : good, bad)
+
+## Importation de la base
+
+```
+cd mnt/.../MyData
+scp -P 2222 german_credit_FR.csv imsduser@interne.avisia.fr:/home/imsduser
+ssh imsduser@interne.avisia.fr -p 2222
+hdfs dfs -put german_credit_data.csv /user/imsduser/projet_fr/
+```
+
