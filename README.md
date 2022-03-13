@@ -9,7 +9,7 @@ La base finale conservée contient les variables suivantes :
 
 - `Age` (variable numérique continue, Âge)
 - `Sex` (variable textuelle catégorielle, Sexe : male, female)
-- `Job` (variable numérique catégorielle, catégorie socio-professionnelle: 0 - unskilled and non-resident, 1 - unskilled and resident, 2 - skilled, 3 - highly skilled)
+- `Job` (variable numérique catégorielle, catégorie socio-professionnelle: 0 - non qualifié ou étranger, 1 - non qualifié et résident, 2 - qualifié, 3 - hautement qualifié)
 - `Housing` (variable textuelle catégorielle, Statut d'occupation du logement: own, rent, or free)
 - `Saving accounts` (variable textuelle catégorielle, Montant disponible dans le compte d'épargne : - little, moderate, quite rich, rich)
 - `Checking account` (variable numérique continue, Montant disponible dans le compte courant - en Deutsch Mark)
