@@ -15,4 +15,5 @@ La base finale conservée contient les variables suivantes :
 - `Checking account` (variable numérique continue, Montant disponible dans le compte courant - en Deutsch Mark)
 - `Credit amount` (variable numérique continue, Montant du crédit - en Deutsche Mark)
 - `Duration` (variable numérique continue, Durée du crédit en mois)
-- `Purpose` (variable textuelle catégorielle avec pour modalités: car, radio/TV, furniture/equipment, business, education )
+- `Purpose` (variable textuelle catégorielle avec pour modalités: car, radio/TV, furniture/equipment, business, education)
+- `Risk` (variable textuelle catégorielle, C'est la variable cible, elle correspond au statut du crédit : good, bad)
