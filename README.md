@@ -2,6 +2,7 @@
 
 ## Résumé
 
+La classification est l'une des tâches les plus importantes du machine learning et du scoring. En effet, le scoring de crédit fut historiquement l'un des premiers champs d'application des techniques de machine learning. De la nécessité de distinguer deux groupes d'individus, entre les mauvais et bons payeurs, les établissements de crédit pour éviter les risques de défauts bancaires se sont efforcés de développer des méthodes et modèles avec le meilleur pouvoir prédictif permettant d'identifier les contreparties à risque/en défaut des autres. 
 
 ## Données
 
