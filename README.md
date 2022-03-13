@@ -3,7 +3,7 @@
 
 ## Données
 
-L'ensemble de données utilisé dans ce projet est inclus sous le nom de `german_credit_data.csv`. Ce jeu de données est fourni par le Professeur Dr. Hans Hofmann de l'Institut de Statistique et d'Économétrie de l'Université d'Hambourg. Originellement composée de `20 variables` et `1000 observations`, le dataset utilisé pour notre analyse est une version allégée disponible sur Kaggle avec `10 attributs`, ceux non-retenus n'étant pas si importants ou leurs descriptions obscures.
+L'ensemble de données utilisé dans ce projet est inclus sous le nom de `german_credit_data.csv`. Ce jeu de données est fourni par le Professeur Dr. Hans Hofmann de l'Institut de Statistique et d'Économétrie de l'Université d'Hambourg. Originellement composée de `20 variables` et `1000 observations`, le dataset utilisé pour notre analyse est une version allégée disponible sur Kaggle (https://www.kaggle.com/kabure/german-credit-data-with-risk) avec `10 attributs`, ceux non-retenus n'étant pas si importants ou leurs descriptions obscures.
 
 La base finale conservée contient les variables suivantes :
 
